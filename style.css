@@ -1,0 +1,64 @@
+/* Declare anything here to be used anywhere */
+:root {
+  --bg: #091413;
+  --surface: #285a48;
+  --accent: #408a71;
+  --text: #b0e4cc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+/* nav */
+nav {
+  width: 100%;
+  background-color: var(--surface);
+  display: flex;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--text);
+  margin: 5px;
+  padding: 6px;
+}
+
+#hero {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+  align-items: center;
+  text-align: center;
+}
+
+#hero a {
+  background-color: var(--surface);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+#hero a:hover {
+  background-color: var(--accent);
+}
