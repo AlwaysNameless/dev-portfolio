@@ -134,4 +134,26 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article {
+    width: 90%;
+  }
+  #about {
+    width: 90%;
+  }
+  .about-grid {
+    width: 80%;
+    margin: 40px auto;
+  }
+  footer {
+    width: 90%;
+  }
 }
