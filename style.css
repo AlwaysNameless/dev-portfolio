@@ -11,6 +11,7 @@ body {
   padding: 0;
   background-color: var(--bg);
   font-family: sans-serif;
+  color: var(--text);
 }
 
 header {
@@ -61,4 +62,76 @@ a {
 
 #hero a:hover {
   background-color: var(--accent);
+}
+
+#projects h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+article {
+  background-color: var(--surface);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  border-radius: 12px;
+  height: auto;
+  padding: 20px;
+}
+
+article a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  background-color: var(--accent);
+  padding: 12px;
+  border-radius: 12px;
+  color: var(--text);
+}
+
+article a:hover {
+  background-color: var(--surface);
+}
+
+/* about me */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 12px;
+  margin: 100px auto;
+}
+
+.about-grid {
+  background-color: var(--surface);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
